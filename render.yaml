@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: user-management-backend
+    env: node
+    branch: main
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
